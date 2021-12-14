@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&family=Oswald:wght@300&display=swap');
+html {
+    -webkit-font-smoothing: antialiased;
+    scroll-behavior: smooth;
+  }
+
+body {
+	margin: 0;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #6b6b6b;
+    overflow-x: hidden;
+}
+.welcome {
+    height: 534px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    text-align: center;
+    align-items: center;
+  }
+#welcome {
+    position: relative;
+    align-items: center;
+    background-color: transparent;
+    background-image: url( img/mini-profile-bg-01.jpg );
+    background-attachment: fixed;
+  }
+  .logo {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+  }
+
+  .tm-brand-container {
+    position: absolute;
+    padding: 95px 110px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 100%;
+    margin-top: 40px;
+    margin-left: 30%;
+    color: white;
+  }
+ 
+  .tm-bg-black-transparent {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .tm-bg-white-transparent {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: transparent;
+	position: absolute;
+	top: 20;
+    width: 100%;
+    text-align: center;
+    margin-top: 500px;
+}
+
+nav ul {
+	display: flex;
+	list-style-type: none;
+    text-align: center;
+    width: 100%;
+    margin-left: 300px;
+    
+}
+nav ul li {
+	margin-left: 60px;
+	cursor: pointer;
+    padding-bottom: 7px;
+	border-bottom: 1px solid #fff;
+}
+nav ul li:checked{
+    color: rgb(49, 79, 134);
+}
+nav ul li:hover {
+	border: 1px solid #000;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.page-content {
+	margin: 4%;
+}
+.page-content header {
+	margin-top: 5%;
+	max-width: 100%;
+    text-align: center;
+}
+.page-content header h3 {
+	margin: 0;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: 6vw;
+}
+.page-content header p {
+	line-height: 30px;
+	color: #818181;
+}
+.tm-portfolio-item {
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    width: 100%;
+  }
+  
+  .tm-portfolio-name {
+    font-family: 'Oswald', 'serif';
+    text-transform: uppercase;
+    height: 50px;
+    font-size: 3vw;
+    padding-bottom: 10px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin-right: 15px;
+  }
+  .contact{
+    height: 500px;
+    margin: 0;
+  }
+  #contact{
+    width: 100%;
+  }
+  .tm-portfolio-description {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    width: 100%;
+    padding: 0px 20px 45px;
+    font-size: x-large;
+    margin-left: 200px;
+  }
+  
+  .tm-portfolio-description h3 {
+    margin-bottom: 20px;
+  }
+  
+  .tm-bg-blue {
+    background-color: #3398cc;
+  }
+
+
+.page-content .projects-section {
+	margin-top: 6%;
+    text-align: center;
+    align-items: center;
+}
+.page-content .projects-section h1 {
+	font-family: 'Oswald', 'serif';
+	text-transform: uppercase;
+	font-size: 3vw;
+}
+.page-content .projects-section .projects {
+	display: flex;
+	flex-wrap: wrap;
+    align-items: center;
+    margin-left: 190px;
+    
+}
+.page-content .projects-section .project {
+	margin-right: 20px;
+    margin-bottom: 20px;
+	max-width: 400px;
+    height: 400px;
+    padding: 7px;
+    border: solid 1px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+.page-content .projects-section .project:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+    border: none;
+    color: #000;
+}
+.page-content .projects-section .project img{
+    width: 390px;
+    height: 250px;
+    margin-bottom: 10px;
+}
+.page-content .projects-section .project h4 {
+    font-family: 'Oswald', 'serif';
+	text-transform: uppercase;
+	margin: 0;
+}
+.page-content .projects-section .project .description {
+	font-size: 13px;
+    text-align: justify;
+}
+.page-content .projects-section .project .dates {
+	font-size: 13px;
+	color: rgb(145, 145, 145);
+}
+
+  #tmContactForm {
+    width: 100%;
+    max-width: 680px;
+    padding: 45px 55px 30px;
+    margin-left: 360px;
+    border: solid 1px #3398cc;
+    border-radius: 20px;
+    align-items: center;
+  }
+  #form{
+    width: 500px;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .form-group {
+    max-width: 555px;
+    width: 100%;
+    
+  }
+  
+  .form-control {
+    background: transparent;
+    border: solid 1px black;
+    padding: 15px 10px;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 15px;
+  }
+
+ 
+  .tm-btn-submit {
+    background-color: #3398cc;
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    margin-left: 180px;
+    border: solid 1px transparent;
+    border-radius: 15px;
+    color: white;
+  }
+  
+  .tm-btn-submit:focus,
+  .tm-btn-submit:hover {
+    background-color: transparent;
+    color: black;
+    border-color: #3398cc;
+  }
+footer {
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background-color: rgba(108, 139, 223, 0.5);
+	color: #fff;
+    text-align: center;
+    height: 40px;
+    padding-top: 10px;
+    display: flex;
+}
+footer div{
+  margin-left: 110px;
+  padding-left: 35px;
+}
+footer div span{
+  padding: 5px;
+  border: solid 1px white;
+  border-radius: 5px;
+}
+
+footer p{
+    font-family: 'Oswald', 'serif';
+	text-transform: uppercase;
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+    margin-left: 470px;
+}
+@media screen and (max-width: 700px) {
+	nav {
+		justify-content: center;
+	}
+	nav ul {
+		display: none;
+	}
+
+	.page-content header {
+		margin-top: 10%;
+		max-width: 100%;
+	}
+	.page-content .projects-section {
+		margin-top: 15%;
+    
+	}
+	.page-content .projects-section h1 {
+		font-size: 1.5em;
+	}
+	.page-content .projects-section .project {
+		margin-right: 0;
+		margin-bottom: 20px;
+		max-width: 100%;
+    margin-left: auto;
+	}
+	.page-content .projects-section .project .description {
+		font-size: 13px;
+	}
+
+	footer {
+		justify-content: center;
+	}
+	footer .column {
+		width: 80%;
+	}
+}
+@media (max-width: 572px) {
+    .tm-brand-container {
+      padding: 45px;
+    }
+  }
+  
+  @media (max-width: 443px) {
+    .tm-brand-name {
+      font-size: 3rem;
+    }
+  
+    .tm-brand-container {
+      padding: 25px;
+    }
+  }
+  
+@media (max-width: 1054px) {
+  .tm-contact-item-icon {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 991px) {
+  .tm-contact-items-container {
+    flex-direction: column;
+  }
+
+  .tm-contact-item {
+    width: auto;
+    max-width: 580px;
+    min-height: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+
+  .tm-contact-item:last-child {
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+
+  #tmContactForm {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 730px) {
+  .tm-portfolio-item {
+    flex-direction: column;
+  }
+
+  .tm-portfolio-name {
+    justify-content: center;
+  }
+
+  .tm-portfolio-name,
+  .tm-portfolio-description {
+    width: 100%;
+  }
+
+  .tm-portfolio-description {
+    margin: auto;
+    padding: 20px 30px;
+  }
+}
